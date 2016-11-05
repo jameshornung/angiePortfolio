@@ -1,11 +1,18 @@
 var React = require('react');
+var Nav = require('./Children/Nav');
 
 var Main = React.createClass({
 	render: function(){
 		return(
-			<div className="container">
-				<div className="jumbotron">
-					<h1>Howdy There!</h1>
+			<div className="wrapper">
+				<nav>
+					<Nav />
+				</nav>
+				<div className="container purple accent-1" id="mainContainer">
+					<div className="center">
+						<h1 id="mainName">Angie Cervantes</h1>
+						<img id="mainPic" src="images/angieWithHotDog.jpg" />
+					</div>
 				</div>
 			</div>
 			)

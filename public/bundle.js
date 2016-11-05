@@ -19754,24 +19754,35 @@
 /* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	var React = __webpack_require__(1);
+	var Nav = __webpack_require__(160);
 
 	var Main = React.createClass({
-		displayName: "Main",
+		displayName: 'Main',
 
 		render: function render() {
 			return React.createElement(
-				"div",
-				{ className: "container" },
+				'div',
+				{ className: 'wrapper' },
 				React.createElement(
-					"div",
-					{ className: "jumbotron" },
+					'nav',
+					null,
+					React.createElement(Nav, null)
+				),
+				React.createElement(
+					'div',
+					{ className: 'container purple accent-1', id: 'mainContainer' },
 					React.createElement(
-						"h1",
-						null,
-						"Howdy There!"
+						'div',
+						{ className: 'center' },
+						React.createElement(
+							'h1',
+							{ id: 'mainName' },
+							'Angie Cervantes'
+						),
+						React.createElement('img', { id: 'mainPic', src: 'images/angieWithHotDog.jpg' })
 					)
 				)
 			);
@@ -19779,6 +19790,63 @@
 	});
 
 	module.exports = Main;
+
+/***/ },
+/* 160 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	var React = __webpack_require__(1);
+
+	var Nav = React.createClass({
+		displayName: "Nav",
+
+		render: function render() {
+			return React.createElement(
+				"div",
+				{ className: "nav-wrapper pink accent-3" },
+				React.createElement(
+					"a",
+					{ href: "#", className: "brand-logo" },
+					"Logo"
+				),
+				React.createElement(
+					"ul",
+					{ id: "nav-mobile", className: "right hide-on-med-and-down" },
+					React.createElement(
+						"li",
+						null,
+						React.createElement(
+							"a",
+							{ href: "sass.html" },
+							"Sass"
+						)
+					),
+					React.createElement(
+						"li",
+						null,
+						React.createElement(
+							"a",
+							{ href: "badges.html" },
+							"Components"
+						)
+					),
+					React.createElement(
+						"li",
+						null,
+						React.createElement(
+							"a",
+							{ href: "collapsible.html" },
+							"JavaScript"
+						)
+					)
+				)
+			);
+		}
+	});
+
+	module.exports = Nav;
 
 /***/ }
 /******/ ]);
