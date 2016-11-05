@@ -19773,7 +19773,7 @@
 				),
 				React.createElement(
 					'div',
-					{ className: 'container purple accent-1', id: 'mainContainer' },
+					{ className: 'container', id: 'mainContainer' },
 					React.createElement(
 						'div',
 						{ className: 'center' },
@@ -19819,8 +19819,8 @@
 						null,
 						React.createElement(
 							"a",
-							{ href: "sass.html" },
-							"Sass"
+							{ href: "#" },
+							"About Me"
 						)
 					),
 					React.createElement(
@@ -19828,8 +19828,8 @@
 						null,
 						React.createElement(
 							"a",
-							{ href: "badges.html" },
-							"Components"
+							{ href: "#" },
+							"Resume"
 						)
 					),
 					React.createElement(
@@ -19837,8 +19837,8 @@
 						null,
 						React.createElement(
 							"a",
-							{ href: "collapsible.html" },
-							"JavaScript"
+							{ href: "#" },
+							"Connect With Me"
 						)
 					)
 				)

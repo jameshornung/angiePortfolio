@@ -8,7 +8,7 @@ var Main = React.createClass({
 				<nav>
 					<Nav />
 				</nav>
-				<div className="container purple accent-1" id="mainContainer">
+				<div className="container" id="mainContainer">
 					<div className="center">
 						<h1 id="mainName">Angie Cervantes</h1>
 						<img id="mainPic" src="images/angieWithHotDog.jpg" />
