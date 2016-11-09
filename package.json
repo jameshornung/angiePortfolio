@@ -1,5 +1,5 @@
 {
-  "name": "mern-starter-pack",
+  "name": "angie-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "public/index.html",
@@ -19,6 +19,7 @@
     "morgan": "^1.7.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
+    "react-router": "^3.0.0",
     "request": "^2.74.0"
   },
   "devDependencies": {

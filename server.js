@@ -18,9 +18,13 @@ app.use(express.static('./public'));
 // ROUTES=================================
 
 // Main Route. This route will redirect to our rendered React application
-app.get('/', function(req, res){
-  res.sendFile('./public/index.html');
-})
+// app.get('/', function(req, res){
+//   res.sendFile('./public/index.html');
+// })
+
+// app.get('/resume', function(req, res){
+//   res.sendFile('./public/index.html');
+// })
 
 //========================================
 

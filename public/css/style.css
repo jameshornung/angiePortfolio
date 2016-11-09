@@ -19,3 +19,10 @@
 	border-radius: 50%;
 }
 
+/************************/
+/*RESUME*/
+/************************/
+#resumePic{
+	border-radius: 50px;
+	height: 200px;
+}
